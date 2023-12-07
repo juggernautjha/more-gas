@@ -22,7 +22,7 @@ from prompts import cot_agent_prompt, cot_reflect_agent_prompt, cot_reflect_prom
 from fewshots import WEBTHINK_SIMPLE6, REFLECTIONS, COT, COT_REFLECT
 
 KWARGS = dict([('model_name', 'llama2'),
-              ('is_ollama', True), ('temperature', 0), ('max_tokens', 100), ('stop', '\n')])
+              ('is_ollama', True), ('temperature', 0), ('max_tokens', 100)])
 
 
 class ReflexionStrategy(Enum):
